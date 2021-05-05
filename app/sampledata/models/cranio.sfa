@@ -1,0 +1,50 @@
+{
+  materials: [
+    {
+      name: 'Material.003',
+      parameters: [
+        {
+          baseColor: 'difuso_flip_oscuro',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 0.85,
+        },
+        {
+          roughness: 0.9,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/cranio.obj',
+    name: 'cranio',
+    recenter: 'root',
+    scale: 0.35,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models\\difuso_flip_oscuro.jpg',
+      name: 'difuso_flip_oscuro',
+      pipeline_name: 'difuso_flip_oscuro.jpg',
+    },
+  ],
+  version: '0.54:2',
+}

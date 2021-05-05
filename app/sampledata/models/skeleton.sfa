@@ -1,0 +1,42 @@
+{
+  materials: [
+    {
+      name: 'Bones___Vray',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.584314,
+            0.584314,
+            0.584314,
+            1,
+          ],
+        },
+        {
+          metallic: 0.1,
+        },
+        {
+          roughness: 0.41083900000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/skeleton.obj',
+    name: 'skeleton',
+    recenter: 'root',
+    scale: 0.04,
+  },
+  version: '0.54:2',
+}
