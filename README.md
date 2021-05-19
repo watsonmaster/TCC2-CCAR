@@ -6,6 +6,8 @@ Plataforma Android
 SDK [Google ARCore](https://developers.google.com/ar)
 [Sceneform](https://developers.google.com/sceneform/develop) SDK 1.5
 
+[![](http://img.youtube.com/vi/bUQQsIxULEg/0.jpg)](http://www.youtube.com/watch?v=bUQQsIxULEg "Demonstração APP")
+
 
 **Requisitos:**
 
