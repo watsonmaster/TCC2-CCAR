@@ -36,7 +36,7 @@
     file: 'sampledata/models/skeleton.obj',
     name: 'skeleton',
     recenter: 'root',
-    scale: 0.04,
+    scale: 0.02,
   },
   version: '0.54:2',
 }

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LockedOrientationActivity"
     package="br.edu.uffs.cc.arcc">
 
     <uses-permission android:name="android.permission.CAMERA"/>
@@ -14,8 +16,13 @@
         android:roundIcon="@mipmap/ic_newicon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ArView"></activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".ArView"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

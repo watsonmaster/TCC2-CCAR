@@ -34,7 +34,7 @@ class ArView : AppCompatActivity() {
 
     //Lista de Modelos a serem carregados
     private val models = mutableListOf(
-        Model(R.drawable.cranio, "Cranio", R.raw.cranio),
+        Model(R.drawable.cranio, "Crânio", R.raw.cranio),
         Model(R.drawable.skeleton, "Esqueleto", R.raw.skeleton),
         Model(R.drawable.heart, "Coração", R.raw.heartbase)
     )
